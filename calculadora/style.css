@@ -1,0 +1,119 @@
+/* Estilo do container */
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BI {
+    padding: 10px;
+}
+.BE{
+    padding: 10px;
+}
+
+#lb {
+    height: 300px;
+    width: 98%;
+    background-color: rgb(83, 85, 85);
+    color: antiquewhite;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+    justify-content: center;
+}
+
+/* Estilo do body */
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 90%;
+    border-radius: 15px;
+    background-color: #2b2a2a;
+    margin: 0; /* para evitar espaços indesejados */
+    font-family: Arial, sans-serif; /* opcional */
+}
+#hhh {
+    height: 60px;
+    width: 195px;
+    border-radius: 10px;
+    background-color: #363636;
+    color: antiquewhite;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out; /* suaviza o hover */
+}
+
+/* Estilo dos botões */
+button {
+    height: 60px;
+    width: 60px;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: #363636;
+    color: antiquewhite;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out; /* suaviza o hover */
+}
+
+.buttonss {
+    display: flex;
+    flex-direction: row;
+}
+
+#lindeza {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+/* Efeito hover */
+button:hover {
+    height: 55px;
+    width: 55px;
+    background-color: #545555;
+    border: 2px solid rgb(230, 230, 230);
+    box-shadow: 0 0 10px #c5c5c5;
+}
+.button-container {
+    display: flex;
+    flex-wrap: wrap; /* permite que os itens “quebrem” para a próxima linha */
+    gap: 10px; /* espaço entre os botões */
+    justify-content: flex-start; /* alinha à esquerda, pode usar center */
+}
+
+.button-container button {
+    flex: 1 1 calc(33.33% - 10px); /* 3 botões por linha, descontando o gap */
+    min-width: 100px; /* largura mínima para cada botão */
+    height: 50px;
+    border-radius: 10px;
+    background-color: #363636;
+    color: antiquewhite;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.button-container button:hover {
+    height: 55px;
+    background-color: #545555;
+    border: 2px solid rgb(247, 247, 247);
+    box-shadow: 0 0 10px #dcdcdd;
+}
+
+.op {
+    background-color: rgb(238, 238, 238);
+    color: #2b2a2a;
+    &:hover {
+        background-color: hsl(0, 0%, 96%);;
+    }
+}
+.op:hover{
+    box-shadow: #ffffff;
+}

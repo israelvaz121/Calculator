@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+<div class="calculadora">
+    
+    <div class="tela">
+        <input type="text" id="lb" readonly>
+    </div>
+
+    <div class="buttonss">
+        <div class="BI" id="lindeza">
+            <button class="bic" onclick="numerosTela('7')">7</button>            
+            <button class="bic" onclick="numerosTela('8')">8</button>            
+            <button class="bic" onclick="numerosTela('9')">9</button>            
+            <button class="bic" onclick="numerosTela('4')">4</button>            
+            <button class="bic" onclick="numerosTela('5')">5</button>            
+            <button class="bic" onclick="numerosTela('6')">6</button>            
+            <button class="bic" onclick="numerosTela('1')">1</button>            
+            <button class="bic" onclick="numerosTela('2')">2</button>            
+            <button class="bic" onclick="numerosTela('3')">3</button>            
+            <button class="bic" id="hhh" onclick="numerosTela('0')">0</button>            
+        </div>
+
+        <div class="BE" id="lindeza">
+            <button onclick="operacao('*')" class="op">*</button>
+            <button onclick="operacao('/')" class="op">/</button>
+            <button onclick="operacao('+')" class="op">+</button>
+            <button onclick="operacao('-')" class="op">-</button>
+            <button onclick="ponto('.')" class="op">.</button>
+            <button onclick="calcular()" class="op">=</button>
+            <button onclick="limpar()" class="op">C</button>
+            <button onclick="apagar()" class="op">⌫</button>
+        </div>
+    </div>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
+   
